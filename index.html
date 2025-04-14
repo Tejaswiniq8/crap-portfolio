@@ -1,8 +1,100 @@
-<html>
-    <head>
-        <titlle>Cloning</title>
-    </head>
-    <body>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .skills div {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 25%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I'm a passionate web developer with skills in HTML, CSS, and JavaScript. I enjoy creating beautiful and functional websites.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <div>
+                    <h3>HTML</h3>
+                    <p>Building structured websites.</p>
+                </div>
+                <div>
+                    <h3>CSS</h3>
+                    <p>Styling and creating beautiful layouts.</p>
+                </div>
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>Making websites interactive and dynamic.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Email: example@email.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+</body>
 </html>
